@@ -5,14 +5,6 @@ import wizzLogo from "../wizz.png";
 
 function Authenticate(props) {
   const {isLoggedIn, setIsLoggedIn,error, setError, profileObject, setProfileObject} = props;
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
-  // const [logIn, setLogIn] = useState(props.isLoggedIn);
-  // const [error, setError] = useState(null);
-  // const [profileObject, setProfileObject] = useState(null);
-
-  // useEffect(() => {
-  //   console.log(isLoggedIn);
-  // }, [isLoggedIn]);
   useEffect(() => {
     if (profileObject !== null) {
       // console.log(profileObject);
@@ -52,7 +44,7 @@ function Authenticate(props) {
             ) : null}
           </div>
           <div className="sign-up">
-            <h5>Don't have an Account?</h5>
+            <h5 style={{marginBottom: "1rem"}}>Don't have an Account?</h5>
             <GoogleLogin
               clientId="49371901320-8a2u0ldp967umqi44phevv8uts1br3rq.apps.googleusercontent.com"
               buttonText="Sign Up"
