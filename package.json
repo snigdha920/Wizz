@@ -1,5 +1,6 @@
 {
   "name": "react",
+  "homepage": "https://snigdha920.github.io/Wizz",
   "version": "1.0.0",
   "description": "React example starter project",
   "keywords": [
@@ -7,7 +8,6 @@
     "starter"
   ],
   "main": "src/index.js",
-  "homepage": " https://snigdha920.github.io/Wizz",
   "dependencies": {
     "axios": "0.21.1",
     "bootstrap": "^4.5.3",
