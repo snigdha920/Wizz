@@ -9,7 +9,7 @@ function Main(props) {
   return (
     <div className="container">
       <div className="row justify-content-md-center">
-        <div className="col-md-6 col-sm-12 dashboard">
+        <div className="col-md-4 col-sm-12 dashboard">
           <Heading
             name={props.givenName}
             imageUrl={props.imageUrl}
